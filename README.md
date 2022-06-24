@@ -8,7 +8,7 @@ Louise wants to know how her campaign compared to the other thousands of campaig
 
 To obtain this information, I first had to filter the campaigns by filtering for the parent category “theater/plays” and then the subcategory of “theater”. I then created another column that translated the unix timestamp to an actual date. With each row having an outcome and a date, the next step was to arrange all of this data into a pivot table and filter the columns by successful, failed, and canceled and the rows by each month. To better visualize this filtered data, I created a line chart with different colored lines for each outcome. With the data presented this way, it was easy to see that May was the month with the highest number of successful outcomes in the theater subcategory. I noticed that for the month of October, there was a gap in the data for the number of canceled projects. Thinking that I had done something wrong, I went back to the kickstarter tab and filtered for canceled projects in the month of October. Upon doing so, I found that there were none and when talking with other classmates, I found that they had gotten the same result.
 
-
+![](/Theater_Outcomes_vs_Launch.png) 
 
 # Analysis of outcomes based on goals
 
