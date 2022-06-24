@@ -13,8 +13,8 @@ To obtain this information, I first had to filter the campaigns by filtering for
 # Analysis of outcomes based on goals
 
 This step involved using the COUNTIF function to fetch data based on certain criteria, including the outcome, the goal amount range, and the subcategory. For column E, I used the addition formula to display the sum of the values of columns B, C, and D in that row. For columns F and G, it was just a matter of using a combination of division and multiplication to find the percentages. I had significant difficulty with applying the COUNTIF formula correctly and so often I did not know if the number that I had gotten from inputting a formula would be correct or not. To get around this problem, I had to coordinate with fellow classmates and try different ways of ordering the formula and the filters. Once I got it right, it was just a matter of changing the criteria based on each goal bracket. I noticed that I was getting 0 for all the cells in the canceled column. Thinking that I was doing something wrong to be getting the same result over and over again, I double and then triple-checked the formula. Afterwards, I applied the filters to the kickstarter sheet and found that there were no plays that were canceled. Sure of my results, I created a line graph to better visualize the data. Upon doing so, I found that although plays with higher funding goals tended to have higher rates of failure, the correlation was not very strong. 
-![image](/Resources//Outcomes_vs_Goals.png) 
 
+![](/Resources//Outcomes_vs_Goals.png) 
 
 # Outcomes by Launch Date Results 
 
