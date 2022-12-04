@@ -8,15 +8,15 @@ Louise wants to know how her campaign compared to the other thousands of campaig
 
 To obtain this information, I first had to filter the campaigns by filtering for the parent category “theater/plays” and then the subcategory of “theater”. I then created another column that translated the unix timestamp to an actual date. With each row having an outcome and a date, the next step was to arrange all of this data into a pivot table and filter the columns by successful, failed, and canceled and the rows by each month. To better visualize this filtered data, I created a line chart with different colored lines for each outcome. With the data presented this way, it was easy to see that May was the month with the highest number of successful outcomes in the theater subcategory. I noticed that for the month of October, there was a gap in the data for the number of canceled projects. Thinking that I had done something wrong, I went back to the kickstarter tab and filtered for canceled projects in the month of October. Upon doing so, I found that there were none and when talking with other classmates, I found that they had gotten the same result.
 
-![](/by_month.png)
-![](/Theater_Outcomes_vs_Launch.png) 
+![](images/by_month.png)
+![](images/Theater_Outcomes_vs_Launch.png) 
 
 # Analysis of outcomes based on goals
 
 This step involved using the COUNTIF function to fetch data based on certain criteria, including the outcome, the goal amount range, and the subcategory. For column E, I used the addition formula to display the sum of the values of columns B, C, and D in that row. For columns F and G, it was just a matter of using a combination of division and multiplication to find the percentages. I had significant difficulty with applying the COUNTIF formula correctly and so often I did not know if the number that I had gotten from inputting a formula would be correct or not. To get around this problem, I had to coordinate with fellow classmates and try different ways of ordering the formula and the filters. Once I got it right, it was just a matter of changing the criteria based on each goal bracket. I noticed that I was getting 0 for all the cells in the canceled column. Thinking that I was doing something wrong to be getting the same result over and over again, I double and then triple-checked the formula. Afterwards, I applied the filters to the kickstarter sheet and found that there were no plays that were canceled. Sure of my results, I created a line graph to better visualize the data. Upon doing so, I found that although plays with higher funding goals tended to have higher rates of failure, the correlation was not very strong. 
 
-![](/by_goal.png)
-![](/Outcomes_vs_Goals.png) 
+![](images/by_goal.png)
+![](images/Outcomes_vs_Goals.png) 
 
 # Outcomes by Launch Date Results 
 
